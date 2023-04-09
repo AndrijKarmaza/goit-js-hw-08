@@ -19,6 +19,7 @@ function onSubmit(evt) {
     console.log(userData);
     evt.currentTarget.reset();
     localStorage.removeItem(userStrogateKey);
+    userData = {};
 }
 
 function onInput(evt) {
